@@ -1,6 +1,9 @@
 name: Git_action
 
 on: [push]
+  workflow_dispatch:
+    branches:
+      [main]
 
 jobs:
   hello_world_job:
