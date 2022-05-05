@@ -1,3 +1,5 @@
+name: Git_action
+
 on: [push]
 
 jobs:
