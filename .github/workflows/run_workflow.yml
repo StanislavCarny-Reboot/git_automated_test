@@ -1,6 +1,6 @@
 name: Git_action
 
-on: [push]
+on:
   workflow_dispatch:
     branches:
       [main]
