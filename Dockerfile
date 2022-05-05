@@ -6,4 +6,4 @@ RUN apt-get update -y && apt-get install -y make
 COPY test.py /test.py
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
-ENTRYPOINT ["/test.py"]
+CMD ["python3", "./test.py"]
