@@ -1,7 +1,4 @@
-on: 
-  workflow_dispatch:
-    branches:
-      [master]
+on: [push]
 
 jobs:
   hello_world_job:
