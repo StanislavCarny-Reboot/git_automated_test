@@ -18,6 +18,10 @@ jobs:
         uses: ./ # Uses an action in the root directory
         id: hello
       # Use the output from the `hello` step
+      
+      - name: give permissions
+        run: chmod +x test.py
+        
       - name: Get the output time
 #         run: echo "The time was ${{ steps.hello.outputs.time }}"
         run: ./test.py
