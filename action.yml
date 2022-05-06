@@ -12,4 +12,4 @@ outputs:
 runs:
   using: 'docker'
  # image: 'Dockerfile'
-  image:joeapo108/stan:v2.0
+  image: joeapo108/stan:v2.0
