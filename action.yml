@@ -11,4 +11,5 @@ outputs:
     description: 'The time we greeted you'
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+ # image: 'Dockerfile'
+  image:joeapo108/stan:v2.0
